@@ -1,0 +1,29 @@
+This dataset includes final league standings for every team of European
+football leagues. The data ranges from the 2014/2015 season to the 2018/2019
+season.
+
+Featurespace:
+'league': League;
+'year': Year of season start;
+'position': Position;
+'team': Team name;
+'matches: Amount of games played;
+'wins': Amount of wins;
+'draws': Amount of draws;
+'loses': Amount of losses;
+'scored': Goals scored;
+'missed': Goals conceded;
+'pts': Points;
+'xG': Expected Goals;
+'xG_diff': Difference betweeen XG and actual goals scored;
+'npxG': Expected goals without penalties and own goals;
+'xGA': Expected goals against;
+'xGA_diff': Difference between expected goals against and missed;
+'npxGA': Expected goals against without penalties and own goals;
+'npxGD': The difference between "for" and "against" expected goals without penalties and own goals;
+'ppda_coef': Passes allowed per defensive action in the opposition half;
+'oppda_coef': Opponent passes allowed per defensive action in the opposition half;
+'deep': Passes completed within an estimated 20 yards of goal (crosses excluded);
+'deep_allowed': Opponent passes completed within an estimated 20 yards of goal (crosses excluded);
+'xpts': Expected points;
+'xpts_diff': Difference between actual and expected points

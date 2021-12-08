@@ -1,0 +1,33 @@
+This dataset owns instances of every of Europes top 5 leagues for every year
+season from the 2010/11 season up to 2020/2021.
+
+
+Featurespace:
+'competition':The name of the competition/league;
+'season': Season;
+'rank': The final position of the club at the end of the season;
+'squad': The name of the club;
+'games': Total number of games played by the club;
+'wins': Amount of wins;
+'draws': Amount of draws;
+'losses': Amount of losses;
+'goals_for': Goals scored;
+'goals_against': Goals conceded;
+'goal_diff': Difference of goals scored and goals conceded;
+'points': Total points accumulated by the club;
+'notes': Notes whether club has qualified for the Champions League or the Europa League;
+'players_used': Total number of players in the squad;
+'assists': Total number of assists by the teams players;
+'pens_made': Total penalties scored;
+'pens_att': Total penalties given to the club;
+'cards_yellow': Number of yellow cards accumulated by the club;
+'cards_red': Number of red cards accumulated by the club;
+'shots_on_target_against': Total shots on target by opposing team;
+'saves': Total Number of saves by a club;
+'clean_sheets': Total number of games without conceding a goal;
+'shots_on_target': Total shots on target by the club;
+'games_starts': Total number of players started in a season;
+'games_complete': Unknown;
+'games_subs': Total number of substitutions used by the club;
+'unused_subs': Difference maximum possible substitutions and actual substitutions;
+'points_per_match': Average points accumulated by a team per match

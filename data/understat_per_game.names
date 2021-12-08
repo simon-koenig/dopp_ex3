@@ -1,0 +1,35 @@
+ The understat_per_games dataset documents per game stats of
+ european football clubs. The data ranges from November 2014 to
+ June 2019.
+
+Featurespace:
+
+'league': League;
+'year' : Year of the season start;
+'h_a' : Home or Away game;
+'xG' : Expected goals;
+'xGA': Expected goals against;
+'npxG': Expected goals without penalties and own goals;
+'npxGA': Expected goals against without penalties and own goals;
+'deep' : Passes completed within an estimated 20 yards of goal (crosses excluded);
+'deep_allowed': Opponent passes completed within an estimated 20 yards of goal (crosses excluded);
+'scored': Goals scored;
+'missed': Goals conceded;
+'xpts': Expected points;
+'result': Result of the game for the team;
+'date': Date of the game;
+'wins': 1 for win;
+'draws': 1 for draw;
+'loses': 1 for loss;
+'pts': Points gained;
+'npxGD': The difference between "for" and "against" expected goals without penalties and own goals;
+'ppda_coef': Passes allowed per defensive action in the opposition half;
+'ppda_att': PPDA attacking actions;
+'ppda_def': PPDA defensive actions;
+'oppda_coef': Opponent passes allowed per defensive action in the opposition half;
+'oppda_att': OPPDA attacking actions;
+'oppda_def': OPPDA defensive actions;
+'team': Team name;
+'xG_diff': Difference betweeen XG and actual goals scored;
+'xGA_diff': Difference between expected goals against and missed;
+'xpts_diff': Difference between actual and expected points
